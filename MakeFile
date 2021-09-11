@@ -1,0 +1,5 @@
+Multiprocessing : Multiprocessing.o
+	gcc -o Multiprocessing Multiprocessing.o
+
+Multiprocessing.o : Multiprocessing.c
+	gcc -c Multiprocessing.c
